@@ -27,7 +27,7 @@ You can check out
 [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your
 feedback and contributions are welcome!
 
-## Deploy on ZEIT Now
+## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the
 [Vercel Platform](https://vercel.com/) from the creators of Next.js.
