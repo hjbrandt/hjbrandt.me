@@ -1,0 +1,17 @@
+.hero {
+  width: 100%;
+}
+
+.span {
+  display: block;
+}
+
+.right {
+  composes: span;
+  text-align: right;
+}
+
+.left {
+  composes: span;
+  text-align: left;
+}
