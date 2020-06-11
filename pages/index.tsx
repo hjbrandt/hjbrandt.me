@@ -4,7 +4,7 @@ import { NextPage } from 'next'
 import { Header } from '../components/layout/header/Header'
 import { Nav } from '../components/layout/navigation/Nav'
 import { PageWrapper } from '../components/layout/pageWrapper/PageWrapper'
-import { Hero } from '../components/hero/Hero.tsx'
+import { Hero } from '../components/hero/Hero'
 
 interface Props {
   greeting?: string
