@@ -1,5 +1,5 @@
 import { NextPage } from 'next'
-import styled from 'styled-components'
+// import styled from 'styled-components'
 
 // Components
 import { Header } from '../components/layout/header/Header'
@@ -11,10 +11,10 @@ interface Props {
   greeting?: string
 }
 
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`
+// const Title = styled.h1`
+//   font-size: 50px;
+//   color: ${({ theme }) => theme.colors.blue};
+// `
 
 const Index: NextPage<Props> = () => {
   return (
@@ -22,7 +22,7 @@ const Index: NextPage<Props> = () => {
       <Header />
       <Nav />
       <PageWrapper>
-        <Title>Hello world!</Title>
+        {/* <Title>Hello world!</Title> */}
         <Hero />
       </PageWrapper>
     </>

@@ -3,7 +3,14 @@ import { ThemeProvider } from 'styled-components'
 
 const theme = {
   colors: {
-    primary: '#0070f3',
+    grey: '#CBCCCE',
+    blue: '#01ADEF',
+    red: '#EE3229',
+    orange: '#F69427',
+    green: '#00AB5C',
+    yellow: '#FFCB21',
+    black: '#000000',
+    white: '#ffffff',
   },
 }
 
