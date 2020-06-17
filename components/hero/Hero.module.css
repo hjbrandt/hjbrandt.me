@@ -2,16 +2,20 @@
   width: 100%;
 }
 
-.span {
+.h3span {
   display: block;
+  font-family: fira-sans-condensed, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .right {
-  composes: span;
+  composes: h3span;
   text-align: right;
 }
 
 .left {
-  composes: span;
+  composes: h3span;
   text-align: left;
 }

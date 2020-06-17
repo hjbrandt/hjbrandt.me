@@ -1,14 +1,17 @@
 import React from 'react'
 import Link from 'next/link'
 
+import styles from './Nav.module.css'
+
 export const Nav = () => {
+  const { navMenu, navLink } = styles
   return (
-    <nav aria-label="Main Navigation">
+    <nav className={navMenu} aria-label="Main Navigation">
       <Link href="/contact">
-        <a>Contact</a>
+        <a className={navLink}>Contact</a>
       </Link>
       <Link href="/about">
-        <a>About</a>
+        <a className={navLink}>About</a>
       </Link>
     </nav>
   )
