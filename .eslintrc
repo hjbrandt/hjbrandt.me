@@ -1,4 +1,9 @@
 {
+  "settings": {
+    "react": {
+      "version": "detect" // React version. "detect" automatically picks the version you have installed.
+    }
+  },
   "env": {
     "browser": true,
     "es6": true,
@@ -11,9 +16,6 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@next/next/recommended"
   ],
-  "react": {
-    "version": "detect" // React version. "detect" automatically picks the version you have installed.
-  },
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
