@@ -7,11 +7,11 @@ const { navMenu, navLink } = styles
 export const Nav = () => {
   return (
     <nav className={navMenu} aria-label="Main Navigation">
-      <Link href="/contact">
-        <a className={navLink}>Contact</a>
+      <Link className={navLink} href="/contact">
+        Contact
       </Link>
-      <Link href="/about">
-        <a className={navLink}>About</a>
+      <Link className={navLink} href="/about">
+        About
       </Link>
     </nav>
   )

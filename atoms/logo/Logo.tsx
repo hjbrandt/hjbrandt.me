@@ -7,15 +7,15 @@ import styles from './Logo.module.css'
 export function Logo() {
   return (
     <Link href="/">
-      <a>
-        <h1 className={styles.logoHeading}>Personal website of Hans-Jakob Brandt</h1>
-        <Image
-          className={styles.logo}
-          layout="fill"
-          src="/Logo.png"
-          alt="Hans-Jakob Brandt Logo"
-        />
-      </a>
+      <h1 className={styles.logoHeading}>
+        Personal website of Hans-Jakob Brandt
+      </h1>
+      <Image
+        className={styles.logo}
+        layout="fill"
+        src="/Logo.png"
+        alt="Hans-Jakob Brandt Logo"
+      />
     </Link>
   )
 }
