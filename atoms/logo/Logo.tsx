@@ -11,6 +11,7 @@ export function Logo() {
         <h1 className={styles.logoHeading}>Personal website of Hans-Jakob Brandt</h1>
         <Image
           className={styles.logo}
+          layout="fill"
           src="/Logo.png"
           alt="Hans-Jakob Brandt Logo"
         />
